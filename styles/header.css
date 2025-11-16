@@ -1,0 +1,33 @@
+
+.following {
+  display: relative;
+  flex:1;
+  color: rgb(105, 105, 105);
+}
+.for-you {
+  flex:1;
+  font-weight: bold;
+}
+.following, .for-you {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.following:hover, .for-you:hover{
+ background-color: rgba(105, 105, 105, 0.192);
+}
+
+.page-indicator {
+  position: absolute;
+  background-color: rgb(29, 155, 240);
+
+  border-radius: 10px;
+  width: 56px;
+  height: 4px;
+
+  left: 120px;
+  bottom: 0px;
+}

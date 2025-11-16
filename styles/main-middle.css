@@ -1,0 +1,15 @@
+.show-more-posts {
+  display: flex;
+
+  color: rgb(29, 155, 240);
+  font-size: 16px;
+
+  justify-content: center;
+  align-items: center;
+  
+  cursor: pointer;
+}
+
+.show-more-posts:hover {
+  background-color: rgba(165, 42, 42, 0.034);
+}

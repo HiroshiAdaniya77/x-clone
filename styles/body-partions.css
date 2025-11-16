@@ -1,0 +1,58 @@
+/*The main partitions of the body: header, footer, main... */
+
+/*wrap in a media query!*/
+/*connects to the left-section.css*/
+nav {
+  position: fixed;
+  border-right: 0.008px solid rgb(68, 68, 68);
+  font-size: 21px;
+
+  top: 0px;
+  bottom: 0px;
+  width: 592px;
+}
+  .left-section {
+    position: absolute;
+
+    right: 0px;
+    left: 325px;
+    bottom: 0px;
+    top: 0px;
+  }
+
+header {
+  display: flex;
+  position: fixed;
+
+  height: 50px;
+
+  left: 593px;
+  right: 710px;
+
+  z-index: 100;
+
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+header, main {
+  border-right: 0.008px solid rgb(68, 68, 68);
+}
+main {
+  position: absolute;
+  
+  left: 593px;
+  top: 51px;
+  right: 710px;
+  bottom: 0px;
+}
+  .personal-post {
+    height: 140px;
+  }
+  .show-more-posts {
+    height: 54px;
+  }
+
+header, .personal-post,
+.show-more-posts {
+   border-bottom: 0.008px solid rgb(68, 68, 68);
+}

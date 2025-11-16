@@ -1,0 +1,92 @@
+.message {
+  display: flex;
+  height: 65px;
+
+  padding: 6px 0px 0px 4px;
+}
+
+.profile-image {
+  display: flex;
+
+  height: 95%;
+  width: 60px;
+
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+}
+.user-image {
+  height: 70%;
+  width: 70%;
+
+  object-fit: cover;
+
+  border-radius: 50px;
+}
+
+input {
+  margin-top: 8px;
+  display: block;
+  flex: 1;
+
+  color: white;
+  font-size: 20px;
+
+  border: none;
+  outline: none;
+
+  background-color: black;
+}
+input::placeholder {
+  font-size: 20px;
+}
+
+.post-customisation {
+  display: flex;
+}
+.media-customisation, 
+.post-button {
+  display: flex;
+  flex: 1;
+  height: 66px;
+
+  align-items:end;
+  justify-content: end;
+}
+.media-customisation img{
+  height: 20px;
+  filter: brightness(0) saturate(100%) invert(42%) sepia(95%) saturate(1185%) hue-rotate(176deg) brightness(97%) contrast(94%);
+}
+
+.icon-highlight {
+  display: flex;
+  height: 36px;
+  width: 36px;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 100%;
+  margin-bottom: 12px;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.icon-highlight:hover {
+  background-color: rgb(29, 155, 240, 0.1);
+}
+
+.post-tweet {
+  font-size: 16px;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 30px;
+
+  padding: 10px 19px 10px 19px;
+  margin: 0px 15px 11px 0px; 
+
+  filter: brightness(50%);
+}

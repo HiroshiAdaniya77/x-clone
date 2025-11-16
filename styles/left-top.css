@@ -1,0 +1,74 @@
+/*wrap in media query later*/
+
+/*website logo*/
+
+.hover-highlight-logo {
+  display: flex;
+
+  height: 55px;
+  width: 55px;
+
+  margin: 2px 0px 10px 1px;
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 100%;
+}
+.logo-icon {
+  display: flex;
+  align-items: center;
+}
+
+/*The rest of the icons*/
+.hover-highlight {
+  display: inline-block;
+
+  padding: 8px 10px 8px 10px;
+  margin-bottom: 7px;
+  border-radius: 30px;
+}
+
+.hover-highlight,
+.hover-highlight-logo {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+  .hover-highlight:hover,
+  .hover-highlight-logo:hover {
+    background-color: rgb(20, 20, 20);
+  }
+/*The home icon with a blue notification indicator*/
+.icon .highlighted-icon {
+  filter: invert(100%);
+}
+.blue-notification {
+  position: absolute;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+
+  background-color: rgb(29, 155, 240);
+
+  border-radius: 100%;
+
+  right: 225px;
+  top: 71px;
+}
+/*******/
+
+.icon, .icon-name, .icon-name-home{
+  display: inline-block;
+  vertical-align: middle;
+}
+.icon-name-home {
+  font-weight: bold;
+  color: white;
+}
+.icon {
+  margin-right: 17px;
+  margin-left: 5px;
+}
+.icon-name, .icon-name-home {
+  padding-right: 17px;
+}
