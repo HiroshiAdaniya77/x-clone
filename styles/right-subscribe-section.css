@@ -1,0 +1,40 @@
+
+/*top portion after the search button*/
+.subscribe {
+  height: 120px;
+
+  border-radius: 10px;
+  border: 0.008px solid rgb(68, 68, 68);
+
+  padding: 13px 20px 6px 16px;
+
+  margin-bottom: 18px;
+}
+  .subscribe-premium {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+  }
+  .subscribe-information {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .subscribe button {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 510px;
+
+    background-color: rgb(29, 155, 240);
+    padding: 8px 17px 8px 17px;
+    margin-top: 4px;
+
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .subscribe button:hover {
+    background-color: rgba(29, 156, 240, 0.9);
+  }

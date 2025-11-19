@@ -27,7 +27,7 @@ header {
   height: 50px;
 
   left: 593px;
-  right: 710px;
+  right: 708px;
 
   z-index: 100;
 
@@ -35,24 +35,68 @@ header {
   background-color: rgba(0, 0, 0, 0.7);
 }
 header, main {
-  border-right: 0.008px solid rgb(68, 68, 68);
+  border-right: 0.008px solid #444444;
 }
 main {
   position: absolute;
   
   left: 593px;
-  top: 51px;
-  right: 710px;
-  bottom: 0px;
+  top: 0px;
+  right: 708px;
 }
   .personal-post {
-    height: 140px;
+    height: 136px;
   }
   .show-more-posts {
     height: 54px;
   }
+  .feed {
+    height: 598px;
+    cursor: pointer;
+  }
+.search {
+  display: flex;
+  position: fixed;
+  
+  height: 43px;
+  width: 350px;
+  right: 328px;
 
-header, .personal-post,
-.show-more-posts {
+  margin-top: 4px;
+
+  border-radius: 22px;
+  border: 0.008px solid rgb(68, 68, 68);
+  background-color: black;
+
+  align-items: center;
+  z-index: 100;
+}
+aside {
+  position: absolute;
+
+  width: 350px;
+  height: 1500px;
+  top: 63px;
+  right: 328px;
+
+  z-index: 0;
+}
+footer {
+  margin: 23px 0px 0px 10px;
+  font-size: 12px;
+  color: rgba(105, 105, 105);
+  line-height: 25px;
+}
+.messages-and-grok {
+  position: fixed;
+
+  height: 125px;
+
+  right: 18px;
+  left: 1480px;
+  bottom: 0px;
+}
+header, .personal-post, 
+.show-more-posts, .feed {
    border-bottom: 0.008px solid rgb(68, 68, 68);
 }

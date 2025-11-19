@@ -1,0 +1,10 @@
+footer span {
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+footer span:hover{
+text-decoration: underline;
+}
+.no-decoration {
+  text-decoration: none;
+}

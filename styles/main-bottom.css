@@ -1,0 +1,178 @@
+.feed:hover {
+  background-color: rgba(105, 105, 105, 0.055);
+}
+/*Top portion of the feed post*/
+.feed-top {
+  display: flex;
+  height: 70px;
+}
+  /*The profile picture of the follower*/
+  .followers-profile-picture {
+    width: 65px;
+  }
+    .followers-profile-picture img {
+      height: 45px;
+      border-radius: 100%;
+    }
+  /*The followers names and tweet*/
+  .followers-details {
+    flex: 1;
+  }
+    .followers-name {
+      display: flex;
+      height: 33px;
+
+      margin-top: 6px;
+
+      align-items: center;
+    }
+      .followers-display-name {
+        font-weight: bold;
+        margin-right: 1px;
+        cursor: pointer;
+      }
+      .followers-display-name:hover {
+        text-decoration: underline;
+      }
+      .verification-icon img {
+        height: 19px;
+        filter: brightness(0) saturate(100%) invert(42%) sepia(95%) saturate(1185%) hue-rotate(176deg) brightness(97%) contrast(94%);
+      }
+
+      .followers-user-name {
+        font-size: 15px;
+        color: rgb(105, 105, 105);
+        margin-left: 3px;
+      }
+    
+  .followers-profile-picture, .verification-icon,
+  .grok-meatball div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /*This deals with the grok and ellipsis icons: hover, size and color*/
+  .grok-meatball {
+    display: flex;
+    width: 110px;
+
+    align-items: top;
+    justify-content: end;
+    margin: 5px 6px 0px 0px;
+
+  }
+    .grok-meatball img {
+      height: 19px;
+      filter: invert(50%);
+    }
+    .grok-meatball div {
+      height: 35px;
+      width: 35px;
+      border-radius: 50px;
+    }
+    .grok-meatball div:has(img:hover) {
+      background-color: rgb(29, 155, 240, 0.1);
+    }
+    .grok-meatball img:hover {
+      filter: brightness(0) saturate(100%) invert(42%) sepia(95%) saturate(1185%) hue-rotate(176deg) brightness(97%) contrast(94%);
+    }
+    .grok-meatball .grok-icon {
+      margin-right: -8px;
+    }
+
+/*Middle portion of the feed post: The main content of the post*/
+.feed-middle {
+  display: flex;
+  position: relative;
+
+  height: 430px;
+  margin-top: 10px;
+
+  justify-content: center;
+}
+  .content {
+    width: 70%;
+    height: 109%;
+    background-color: black;
+
+    border: 0.008px solid rgb(68, 68, 68);
+    border-radius: 20px;
+  }
+  .content img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+  }
+  .time-stamp {
+    position: absolute;
+    display: flex;
+
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.281);
+
+    left: 108px;
+    bottom: -20px;
+
+    padding: 1px 5px 1px 5px;
+  }
+/*The bottom portion of the feed post*/
+
+.feed-bottom {
+  display: flex;
+
+  color: rgb(105, 105, 105);
+  font-size: 14px;
+  height: 88px;
+
+  align-items: center;
+
+  margin: 19px 0px 0px 58px;
+}
+.feed-bottom img {
+  height: 20px;
+  filter: invert(40%);
+}
+  .interaction-options, .interaction-options-1, .interaction-options-2{
+    display: flex;
+    flex: 1;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 27px;
+    margin-top: 3px;
+  }
+  .bottom-icons, .bottom-icons-1, .bottom-icons-2 {
+    display: flex;
+    margin-right: -2px;
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+    /*Blue hue*/
+    .interaction-options:hover{
+      filter: brightness(0) saturate(100%) invert(42%) sepia(95%) saturate(1185%) hue-rotate(176deg) brightness(97%) contrast(94%);
+    }
+    .interaction-options:hover .bottom-icons {
+      background-color: rgb(29, 155, 240, 0.1);
+    }
+    /**green hue*/
+    .interaction-options-1:hover {
+    filter: brightness(0) saturate(100%) invert(42%) sepia(95%) saturate(1185%) hue-rotate(120deg) brightness(97%) contrast(94%);
+    }
+    .interaction-options-1:hover .bottom-icons-1 {
+      background-color: rgb(34, 139, 34, 0.1);
+    }
+    /*red hue*/ 
+    .interaction-options-2:hover {
+     filter: brightness(0) saturate(100%) invert(18%) sepia(95%) saturate(3500%) hue-rotate(320deg) brightness(95%) contrast(95%);
+    }
+    .interaction-options-2:hover .bottom-icons-2 {
+     background-color: rgb(249, 24, 128, 0.1);
+    }

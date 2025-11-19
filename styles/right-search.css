@@ -1,0 +1,27 @@
+.search img{
+  margin: 0px 2px 0px 12px;
+  height: 16px;
+  filter: invert(40%);
+}
+.text-search {
+  margin: 0px;
+
+  max-width: 305px;
+}
+.search-background {
+  position: fixed;
+
+  height: 54px;
+  width: 350px;
+  right: 328px;
+
+  background-color: black;
+
+  z-index: 100;
+}
+.text-search::placeholder {
+  font-size: 15px;
+}
+.search:active {
+  border: 2px solid rgb(29, 155, 240);
+}

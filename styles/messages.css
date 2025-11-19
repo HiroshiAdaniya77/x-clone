@@ -1,0 +1,75 @@
+.grok-for-messages {
+  position: absolute;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 55px;
+  height: 55px;
+  right: 0px;
+  top: 0px;  
+
+  border-radius: 11px;
+  background-color: black;
+
+  box-shadow: 0px 1px 8px rgba(255, 255, 255, 0.637);
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.grok-for-messages img {
+  height: 34px;
+  filter: invert(100%);
+}
+.grok-for-messages:hover {
+  background-color: rgb(29, 155, 240, 0.1);
+}
+
+.messages-tab {
+  display: flex;
+  position: absolute;
+
+  font-size: 21px;
+  font-weight: bold;
+
+  height: 60px;
+
+  bottom: -8px;
+  right: 0px;
+  left: 0px;
+
+  padding: 0px 17px 0px 15px;
+  box-shadow: 0px 1px 11px rgba(255, 255, 255, 0.411);
+  border-radius: 11px;
+
+  background-color: black;
+
+  align-items: center;
+
+  cursor: pointer;
+}
+.messages-heading{
+  flex:1;
+  margin-top: -2px;
+}
+.messages-tab img {
+  height: 19px;
+  filter: invert(100%);
+}
+.new-messages, .expand {
+  display: flex;
+
+  height: 37px;
+  width: 37px;
+
+  align-items: center;
+  justify-content: center;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  border-radius: 100%;
+
+  transition: background-color 0.3s; 
+}
+.new-messages:hover, .expand:hover {
+  background-color: rgba(105, 105, 105, 0.192);
+}

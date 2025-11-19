@@ -1,0 +1,77 @@
+.who-to-follow {
+  height: 300px;
+
+  border-radius: 10px;
+  border: 0.008px solid rgb(68, 68, 68);
+  overflow: hidden;
+
+  margin-top: 15px;
+}
+
+.follow-account {
+  display: flex;
+  height: 66px;
+
+  padding: 0px 15px 0px 15px;
+
+}
+.follow-account:hover {
+  background-color: rgba(105, 105, 105, 0.055);
+}
+.follow-suggestion-picture {
+  display: flex;
+  width: 50px;
+
+  align-items: center;
+  justify-content: center;
+}
+  .follow-suggestion-picture img {
+    width: 40px;
+    height: 40px;
+
+    border-radius:  100%;
+  }
+.follow-suggestion-details {
+  flex: 1;
+}
+.follow-suggestion-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.follow-suggestion-button button{
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 9px 17px 9px 17px;
+
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.follow-suggestion-button button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.follow-suggestion-alias, .follow-suggestion-verification {
+  display: flex;
+  align-items: center;
+}
+.follow-suggestion-alias {
+   padding: 12px 0px 1px 3px;
+}
+.follow-suggestion-name {
+  padding-right: 2px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.follow-suggestion-name:hover {
+  text-decoration: underline;
+}
+.follow-suggestion-username {
+  font-size: 13px;
+  color: rgba(105, 105, 105);
+}
+.follow-suggestion-verification img{
+  height: 19px;
+  filter: brightness(0) saturate(100%) invert(42%) sepia(95%) saturate(1185%) hue-rotate(176deg) brightness(97%) contrast(94%);
+}

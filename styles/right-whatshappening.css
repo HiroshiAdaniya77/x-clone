@@ -1,0 +1,77 @@
+.whats-happening{
+  height: 375px;
+
+  border-radius: 10px;
+  border: 0.008px solid rgb(68, 68, 68);
+  overflow: hidden;
+}
+  .topic {
+    padding: 0px 13px 13px 13px;
+  }
+  .topic:hover, .show-more:hover,
+  .show-more-followers:hover {
+     background-color: rgba(105, 105, 105, 0.055);
+  }
+  .trending-topic {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: -16px;
+  }
+  .trending-topic img {
+    height: 20px;
+    filter: invert(50%);
+  }
+  .trending-topic img:hover {
+    filter: brightness(0) saturate(100%) invert(42%) sepia(95%) saturate(1185%) hue-rotate(176deg) brightness(97%) contrast(94%);
+  }
+  .trending-topic div, .topic-posts {
+    color: rgba(105, 105, 105);
+    font-size: 14px;
+    padding: 0px 0px 0px 1px;
+  }
+  .topic-posts {
+    font-size: 13px;
+  }
+  .topic-name {
+    margin-bottom: 4px;
+    font-weight: bold;
+
+  }
+
+.more-highlight {
+  display: flex;
+
+  height: 35px;
+  width: 35px;
+
+  margin-top: 7px;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 100%;
+  margin-bottom: 12px;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+  .more-highlight:hover {
+    background-color: rgb(29, 155, 240, 0.1);
+  }
+  .more-highlight:hover img {
+     filter: brightness(0) saturate(100%) invert(42%) sepia(95%) saturate(1185%) hue-rotate(176deg) brightness(97%) contrast(94%);
+  }
+  .show-more, .show-more-followers {
+    display: flex;
+
+    color: rgb(29, 155, 240);
+
+    align-items: center;
+    height: 46px;
+    cursor: pointer;
+
+    padding-left: 15px;
+  }
